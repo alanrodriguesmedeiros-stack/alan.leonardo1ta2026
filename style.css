@@ -1,1 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0A2E0A; /* Verde escuro */
+    color: #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #009c3b 0%, #ffdf00 50%, #002776 100%);
+    color: #000;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5em;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+header p {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #000;
+    background: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #002776;
+    color: white;
+    transform: scale(1.1);
+}
+
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: #111;
+    border: 2px solid #ffdf00; /* Amarelo */
+    border-left: 8px solid #009c3b; /* Verde */
+    padding: 35px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 223, 0, 0.2);
+}
+
+section h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffdf00; /* Amarelo */
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.conteudo p {
+    line-height: 1.9;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #002776; /* Azul */
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
